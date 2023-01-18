@@ -1,9 +1,14 @@
+"use client";
+
 import Link from "next/link"
+import { Button} from '@chakra-ui/react';
 
 export default function Home() {
     return (
         <div>
-            Hello World from Abdul Manan
+            
+            <Button colorScheme='blue'>Hello World from Abdul Manan</Button>
+
             <br/>
             <Link href="/name">Go to Name page</Link>
             <br/>
