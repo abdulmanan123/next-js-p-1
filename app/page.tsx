@@ -23,14 +23,12 @@ import {
     TableContainer,
 } from '@chakra-ui/react';
 
- import TodoList from "../components/Todos";
 
 export default function Home() { 
     
     return (
         <div>
 
-            {/* <TodoList /> */}
 
             <Card maxW='sm'>
                 <CardHeader>
