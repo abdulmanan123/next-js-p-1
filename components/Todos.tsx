@@ -5,19 +5,16 @@
 //   return todos.json();
 // }
 
+import { Text } from "@chakra-ui/react";
+
+
 export default async function TodoList() {
   // const { todos } = await getTodoList();
   // console.log(todos);
 
   return (
-    // <div>
-    //   {
-    //     todos.map(t) => {
-    //       return {
-    //         <h2>{t.name}</h2>
-    //       }
-    //     }
-    //   }
-    // </div>
+    <div>
+      <Text>Todo App</Text>
+    </div>
   )
 } 
